@@ -16,6 +16,28 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               <div className="project-links">
+                <a href="https://openestate-r3xd.onrender.com/" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /></a>
+                <a href="https://openestate-r3xd.onrender.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a> </div>
+            </header>
+            <div className="body">
+              <h3>OpenEstate</h3>
+              <p> 
+              Developed OpenEstate, a fully responsive web app where users can browse and list flats for rent or sale with high-quality image uploads via Firebase. Features include advanced search filters (price, bedrooms, etc.) and direct contact with property owners, eliminating the need for middlemen.     
+              </p>
+            </div>
+            <footer> <ul className="tech-list"> <li>NodeJS</li> <li>REST-API</li> <li>MongoDb</li> <li>Firebase</li> <li>ReactJS</li> </ul> </footer>
+          </div>
+        </ScrollAnimation>
+        
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <div className="project-links">
                 <a href="https://github.com/Shariqueanjum/Camp-backend" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
                 <a href="https://camp-backend-75rv.onrender.com/" target="_blank" rel="noreferrer">
@@ -28,7 +50,7 @@ export function Project() {
               Created a fully responsive web application for reviewing campgrounds, Where  Users can create, edit, and remove campgrounds. User profiles include more information on the user, their campgrounds, and options to edit or delete their account. They can sort campgrounds by highest rating, most reviewed, lowest price, or highest price. Integrated map for the exact location of Campgrounds.         
               </p>
             </div>
-            <footer> <ul className="tech-list"> <li>Node.Js</li> <li>MongoDb</li> <li>Cloudinary</li> <li>EJS</li> </ul> </footer>
+            <footer> <ul className="tech-list"> <li>NodeJS</li> <li>MongoDB</li> <li>Cloudinary</li> <li>EJS</li> </ul> </footer>
           </div>
         </ScrollAnimation>
 
@@ -52,7 +74,7 @@ export function Project() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>React</li>
+                <li>ReactJS</li>
                 <li>Redux</li>
                 <li>Firebsae</li>
               </ul>
@@ -84,8 +106,8 @@ export function Project() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>React</li>
-                <li>TailwindCss</li>
+                <li>ReactJS</li>
+                <li>TailwindCSS</li>
                 <li>RapidAi</li>
               </ul>
             </footer>
@@ -113,7 +135,7 @@ export function Project() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>React</li>
+                <li>ReactJS</li>
                 <li>Redux</li>
                 <li>MUI</li>
               </ul>
@@ -145,10 +167,10 @@ export function Project() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>React & Redux</li>
-                <li>chart.js</li>
-                <li>Node.js</li>
-                <li>mongoDb</li>
+                <li>ReactJS & Redux</li>
+                <li>chartJS</li>
+                <li>NodeJS</li>
+                <li>mongoDB</li>
               </ul>
             </footer>
           </div>
